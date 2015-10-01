@@ -13,7 +13,7 @@ function ques1() {
 	}
 }
 
-function ques2(){
+function ques2() { 
 	var question2 = prompt("Do you believe in Haunted Houses?");
 	if (question2.toUpperCase() === 'YES' || question2.toUpperCase() === 'Y') {
 	  two.innerHTML = 'You are a giant Halloweenie';
@@ -23,7 +23,7 @@ function ques2(){
 	}
 }
 
-function ques3(){
+function ques3() {
 	var question3 = prompt("Do you avoid watching scary movies and tv shows?");
 	if (question3.toUpperCase() === 'YES' || question3.toUpperCase() === 'Y') {
 	  three.innerHTML = 'You are a mini Halloweenie';
