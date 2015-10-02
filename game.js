@@ -32,7 +32,7 @@ function ques2() {
 	if (question2.toUpperCase() === answers[0] || question2.toUpperCase() === answers[1]) {
 	  two.innerHTML = 'You are a giant Halloweenie';
 	  img2.innerHTML = '<img src= "Img/img2.jpg" width="200" />';
-	  two.className ="correct";
+	  two.className = "correct";
 	  correct++;
 	} else {
 	  two.innerHTML = 'You are a tough one to scare!';
@@ -45,7 +45,7 @@ function ques3() {
 	if (question3.toUpperCase() === answers[0] || question3.toUpperCase() === answers[1]) {
 	  three.innerHTML = 'You are a mini Halloweenie';
 	  img3.innerHTML = '<img src= "Img/img3.jpg" width="200"/>';
-	  three.className ="correct";
+	  three.className = "correct";
 		correct++;
 	} else {
 	  three.innerHTML = 'You are ready for Hallowen!';
