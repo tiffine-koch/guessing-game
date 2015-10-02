@@ -1,11 +1,18 @@
 var correct = 0;
+
 var one = document.getElementById('one');
 var two = document.getElementById('two');
 var three = document.getElementById('three');
 
+var questions = ["Are you afraid of the dark?", 
+								 "Do you believe in Haunted Houses?", 
+								 "Do you avoid watching scary movies and tv shows?"];
+
+var answers = ['YES', 'Y', 'NO', 'N'];
+
 function ques1() {
-	var question1 = prompt("Are you afraid of the dark?");
-	if (question1.toUpperCase() === 'YES' || question1.toUpperCase() === 'Y') {
+	var question1 = prompt(questions[0]);
+	if (answers[0] || answers[1]) {
 	  one.innerHTML = 'You are a Halloweenie';
 	  correct++;
 	} else {
@@ -14,8 +21,8 @@ function ques1() {
 }
 
 function ques2() { 
-	var question2 = prompt("Do you believe in Haunted Houses?");
-	if (question2.toUpperCase() === 'YES' || question2.toUpperCase() === 'Y') {
+	var question2 = prompt(questions[1]);
+	if (answers[0] || answers[1]) {
 	  two.innerHTML = 'You are a giant Halloweenie';
 	  correct++;
 	} else {
@@ -24,8 +31,8 @@ function ques2() {
 }
 
 function ques3() {
-	var question3 = prompt("Do you avoid watching scary movies and tv shows?");
-	if (question3.toUpperCase() === 'YES' || question3.toUpperCase() === 'Y') {
+	var question3 = prompt(questions[2]);
+	if (answers[0] || answers[1]) {
 	  three.innerHTML = 'You are a mini Halloweenie';
 	  correct++;
 	} else {
