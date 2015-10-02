@@ -13,3 +13,10 @@ cf-homework 093015
 Pair programming by:
 Driver: Dave Swaintek
 Navigator: Tiffine Koch
+
+October 2, 2015
+
+Driver: Cody Nemmer
+Navigator: Tiffine Koch
+
+Did the things!

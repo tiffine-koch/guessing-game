@@ -1,0 +1,15 @@
+ * {
+ 	background-color: gray;
+ }
+
+body {
+	color: blue;
+}
+
+.correct {
+	color: green;
+}
+
+.incorrect {
+	color: red;
+}
